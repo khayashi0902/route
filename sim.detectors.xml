@@ -1,0 +1,60 @@
+<detectors>
+    <detectorDefinition id="1_1to1_2_0" lane="1_1to1_2_0" pos="400"/>
+    <detectorDefinition id="1_1to1_2_1" lane="1_1to1_2_1" pos="400"/>
+    <detectorDefinition id="1_2to2_2_0" lane="1_2to2_2_0" pos="400"/>
+    <detectorDefinition id="1_2to2_2_1" lane="1_2to2_2_1" pos="400"/>
+    <detectorDefinition id="2_2to2_1_0" lane="2_2to2_1_0" pos="400"/>
+    <detectorDefinition id="2_2to2_1_1" lane="2_2to2_1_1" pos="400"/>
+    <detectorDefinition id="2_1to1_1_0" lane="2_1to1_1_0" pos="400"/>
+    <detectorDefinition id="2_1to1_1_1" lane="2_1to1_1_1" pos="400"/>
+
+    <detectorDefinition id="1_1to2_1_0" lane="1_1to2_1_0" pos="400"/>
+    <detectorDefinition id="1_1to2_1_1" lane="1_1to2_1_1" pos="400"/>
+    <detectorDefinition id="2_1to2_2_0" lane="2_1to2_2_0" pos="400"/>
+    <detectorDefinition id="2_1to2_2_1" lane="2_1to2_2_1" pos="400"/>
+    <detectorDefinition id="2_2to1_2_0" lane="2_2to1_2_0" pos="400"/>
+    <detectorDefinition id="2_2to1_2_1" lane="2_2to1_2_1" pos="400"/>
+    <detectorDefinition id="1_2to1_1_0" lane="1_2to1_1_0" pos="400"/>
+    <detectorDefinition id="1_2to1_1_1" lane="1_2to1_1_1" pos="400"/>
+
+    <detectorDefinition id="0_1to1_1_0" lane="0_1to1_1_0" pos="200"/>
+    <detectorDefinition id="0_1to1_1_1" lane="0_1to1_1_1" pos="200"/>
+    <detectorDefinition id="1_1to0_1_0" lane="1_1to0_1_0" pos="200"/>
+    <detectorDefinition id="1_1to0_1_1" lane="1_1to0_1_1" pos="200"/>
+
+    <detectorDefinition id="0_2to1_2_0" lane="0_2to1_2_0" pos="200"/>
+    <detectorDefinition id="0_2to1_2_1" lane="0_2to1_2_1" pos="200"/>
+    <detectorDefinition id="1_2to0_2_0" lane="1_2to0_2_0" pos="200"/>
+    <detectorDefinition id="1_2to0_2_1" lane="1_2to0_2_1" pos="200"/>
+
+    <detectorDefinition id="1_2to1_3_0" lane="1_2to1_3_0" pos="200"/>
+    <detectorDefinition id="1_2to1_3_1" lane="1_2to1_3_1" pos="200"/>
+    <detectorDefinition id="1_3to1_2_0" lane="1_3to1_2_0" pos="200"/>
+    <detectorDefinition id="1_3to1_2_1" lane="1_3to1_2_1" pos="200"/>
+
+    <detectorDefinition id="2_2to2_3_0" lane="2_2to2_3_0" pos="200"/>
+    <detectorDefinition id="2_2to2_3_1" lane="2_2to2_3_1" pos="200"/>
+    <detectorDefinition id="2_3to2_2_0" lane="2_3to2_2_0" pos="200"/>
+    <detectorDefinition id="2_3to2_2_1" lane="2_3to2_2_1" pos="200"/>
+
+    <detectorDefinition id="2_2to3_2_0" lane="2_2to3_2_0" pos="200"/>
+    <detectorDefinition id="2_2to3_2_1" lane="2_2to3_2_1" pos="200"/>
+    <detectorDefinition id="3_2to2_2_0" lane="3_2to2_2_0" pos="200"/>
+    <detectorDefinition id="3_2to2_2_1" lane="3_2to2_2_1" pos="200"/>
+
+    <detectorDefinition id="2_1to3_1_0" lane="2_1to3_1_0" pos="200"/>
+    <detectorDefinition id="2_1to3_1_1" lane="2_1to3_1_1" pos="200"/>
+    <detectorDefinition id="3_1to2_1_0" lane="3_1to2_1_0" pos="200"/>
+    <detectorDefinition id="3_1to2_1_1" lane="3_1to2_1_1" pos="200"/>
+
+ 	<detectorDefinition id="2_0to2_1_0" lane="2_0to2_1_0" pos="200"/>
+    <detectorDefinition id="2_0to2_1_1" lane="2_0to2_1_1" pos="200"/>
+    <detectorDefinition id="2_1to2_0_0" lane="2_1to2_0_0" pos="200"/>
+    <detectorDefinition id="2_1to2_0_1" lane="2_1to2_0_1" pos="200"/>
+
+    <detectorDefinition id="1_0to1_1_0" lane="1_0to1_1_0" pos="200"/>
+    <detectorDefinition id="1_0to1_1_1" lane="1_0to1_1_1" pos="200"/>
+    <detectorDefinition id="1_1to1_0_0" lane="1_1to1_0_0" pos="200"/>
+    <detectorDefinition id="1_1to1_0_1" lane="1_1to1_0_1" pos="200"/>
+
+</detectors>
