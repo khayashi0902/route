@@ -1,0 +1,65 @@
+    <city>
+        <general inhabitants="1000" households="500" childrenAgeLimit="19" retirementAgeLimit="66" carRate="0.58" unemploymentRate="0.05"
+                     footDistanceLimit="250" incomingTraffic="200" outgoingTraffic="50" />
+        <parameters carPreference="0.50" meanTimePerKmInCity="6" freeTimeActivityRate="0.15" uniformRandomTraffic="0.20" departureVariation="300" />
+
+        <population>
+            <bracket beginAge="0" endAge="30" peopleNbr="30" />
+            <bracket beginAge="30" endAge="60" peopleNbr="40" />
+            <bracket beginAge="60" endAge="90" peopleNbr="30" />
+        </population>
+
+        <workHours>
+            <opening hour="30600" proportion="0.30" />
+            <opening hour="32400" proportion="0.70" />
+            <closing hour="43200" proportion="0.20" />
+            <closing hour="63000" proportion="0.20" />
+            <closing hour="64800" proportion="0.60" />
+        </workHours>
+
+        <streets>
+            <street edge="1_1to1_2" population="10" workPosition="100" />
+            <street edge="1_2to1_1" population="10" workPosition="100" />
+            <street edge="2_1to2_2" population="10" workPosition="100" />
+            <street edge="2_2to2_1" population="10" workPosition="100" />
+            <street edge="1_1to2_1" population="100" workPosition="10" />
+            <street edge="2_1to1_1" population="100" workPosition="10" />
+            <street edge="1_2to2_2" population="100" workPosition="10" />
+            <street edge="2_2to2_1" population="100" workPosition="10" />
+        </streets>
+
+        <cityGates>
+            <entrance edge="0_1to1_1" pos="0" incoming="0.5" outgoing="0.5" />
+            <entrance edge="1_1to0_1" pos="0" incoming="0.5" outgoing="0.5" />
+        </cityGates>
+
+        <schools>
+            <school edge="1_1to1_2" pos="100" beginAge="6" endAge="12" capacity="150" opening="1000" closing="3000" />/>
+        </schools>
+
+        <busStations>
+            <busStation id="1" edge="1_1to1_2" pos="80" />
+            <busStation id="2" edge="1_1to1_2" pos="640" />
+            <busStation id="3" edge="1_2to2_2" pos="400" />
+            <busStation id="4" edge="2_2to2_1" pos="400" />
+            <busStation id="5" edge="2_1to1_1" pos="700" />
+        </busStations>
+
+        <busLines>
+            <busLine id="101" maxTripDuration="10">
+                <stations>
+                    <station refId="1" />
+                    <station refId="3" />
+                    <station refId="4" />
+                    <station refId="5" />
+                </stations>
+                <revStations>
+                    <station refId="2" />
+                </revStations>
+                <frequencies>
+                    <frequency begin="100" end="10000" rate="300" />
+                </frequencies>
+            </busLine>
+        </busLines>
+
+    </city>

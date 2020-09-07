@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turns>
+  <!-- 信号1_1 -->
+  <fromEdge id="1_0to1_1">
+    <toEdge id="1_1to0_1" probability="0.1"/>
+    <toEdge id="1_1to1_2" probability="0.8"/>
+    <toEdge id="1_1to2_1" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="0_1to1_1">
+    <toEdge id="1_1to1_2" probability="0.1"/>
+    <toEdge id="1_1to2_1" probability="0.8"/>
+    <toEdge id="1_1to1_0" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="1_2to1_1">
+    <toEdge id="1_1to2_1" probability="0.1"/>
+    <toEdge id="1_1to1_0" probability="0.8"/>
+    <toEdge id="1_1to0_1" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="2_1to1_1">
+    <toEdge id="1_1to1_0" probability="0.1"/>
+    <toEdge id="1_1to0_1" probability="0.8"/>
+    <toEdge id="1_1to1_2" probability="0.1"/>
+  </fromEdge>
+
+  <!-- 信号1_2 -->
+  <fromEdge id="1_1to1_2">
+    <toEdge id="1_2to0_2" probability="0.1"/>
+    <toEdge id="1_2to1_3" probability="0.8"/>
+    <toEdge id="1_2to2_2" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="2_2to1_2">
+    <toEdge id="1_2to1_1" probability="0.1"/>
+    <toEdge id="1_2to0_2" probability="0.8"/>
+    <toEdge id="1_2to1_3" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="0_2to1_2">
+    <toEdge id="1_2to1_3" probability="0.1"/>
+    <toEdge id="1_2to2_2" probability="0.8"/>
+    <toEdge id="1_2to1_1" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="1_3to1_2">
+    <toEdge id="1_2to2_2" probability="0.1"/>
+    <toEdge id="1_2to1_1" probability="0.8"/>
+    <toEdge id="1_2to0_2" probability="0.1"/>
+  </fromEdge>
+
+  <!-- 信号2_1 -->
+  <fromEdge id="2_0to2_1">
+    <toEdge id="2_1to1_1" probability="0.1"/>
+    <toEdge id="2_1to2_2" probability="0.8"/>
+    <toEdge id="2_1to3_1" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="3_1to2_1">
+    <toEdge id="2_1to2_0" probability="0.1"/>
+    <toEdge id="2_1to1_1" probability="0.8"/>
+    <toEdge id="2_1to2_2" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="1_1to2_1">
+    <toEdge id="2_1to2_2" probability="0.1"/>
+    <toEdge id="2_1to3_1" probability="0.8"/>
+    <toEdge id="2_1to2_0" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="2_2to2_1">
+    <toEdge id="2_1to3_1" probability="0.1"/>
+    <toEdge id="2_1to2_0" probability="0.8"/>
+    <toEdge id="2_1to1_1" probability="0.1"/>
+  </fromEdge>
+
+  <!-- 信号2_2 -->
+  <fromEdge id="2_1to2_2">
+    <toEdge id="2_2to1_2" probability="0.1"/>
+    <toEdge id="2_2to2_3" probability="0.8"/>
+    <toEdge id="2_2to3_2" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="3_2to2_2">
+    <toEdge id="2_2to2_1" probability="0.1"/>
+    <toEdge id="2_2to1_2" probability="0.8"/>
+    <toEdge id="2_2to2_3" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="1_2to2_2">
+    <toEdge id="2_2to2_3" probability="0.1"/>
+    <toEdge id="2_2to3_2" probability="0.8"/>
+    <toEdge id="2_2to2_1" probability="0.1"/>
+  </fromEdge>
+  <fromEdge id="2_3to2_2">
+    <toEdge id="2_2to3_2" probability="0.1"/>
+    <toEdge id="2_2to2_1" probability="0.8"/>
+    <toEdge id="2_2to1_2" probability="0.1"/>
+  </fromEdge>
+
+  <!-- 終点エッジ -->
+  <sink edges="1_1to0_1 1_2to0_2 1_2to1_3 2_2to2_3 2_2to3_2 2_1to3_1 2_1to2_0 1_1to1_0 "/>
+</turns>

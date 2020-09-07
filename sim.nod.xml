@@ -1,0 +1,14 @@
+<nodes>
+    <node id="0_1" x="-400.0" y="+800.0" />
+    <node id="0_2" x="+400.0" y="+800.0" />
+    <node id="1_0" x="-800.0" y="+400.0" />
+    <node id="1_1" x="-400.0" y="+400.0" type="traffic_light"/>
+    <node id="1_2" x="+400.0" y="+400.0" type="traffic_light"/>
+    <node id="1_3" x="+800.0" y="+400.0" />
+    <node id="2_0" x="-800.0" y="-400.0" />
+    <node id="2_1" x="-400.0" y="-400.0" type="traffic_light"/>
+    <node id="2_2" x="+400.0" y="-400.0" type="traffic_light"/>
+    <node id="2_3" x="+800.0" y="-400.0" />
+    <node id="3_1" x="-400.0" y="-800.0" />
+    <node id="3_2" x="+400.0" y="-800.0" />
+</nodes>

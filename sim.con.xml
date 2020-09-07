@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<connections>
+  <!-- 1_1 -->
+ <connection from="1_0to1_1" to="1_1to0_1" fromLane="0" toLane="0"/>
+ <connection from="1_0to1_1" to="1_1to1_2" fromLane="0" toLane="0"/>
+ <connection from="1_0to1_1" to="1_1to2_1" fromLane="1" toLane="1"/>
+ <connection from="0_1to1_1" to="1_1to1_2" fromLane="0" toLane="0"/>
+ <connection from="0_1to1_1" to="1_1to2_1" fromLane="0" toLane="0"/>
+ <connection from="0_1to1_1" to="1_1to1_0" fromLane="1" toLane="1"/>
+ <connection from="1_2to1_1" to="1_1to2_1" fromLane="0" toLane="0"/>
+ <connection from="1_2to1_1" to="1_1to1_0" fromLane="0" toLane="0"/>
+ <connection from="1_2to1_1" to="1_1to0_1" fromLane="1" toLane="1"/>
+ <connection from="2_1to1_1" to="1_1to1_0" fromLane="0" toLane="0"/>
+ <connection from="2_1to1_1" to="1_1to0_1" fromLane="0" toLane="0"/>
+ <connection from="2_1to1_1" to="1_1to1_2" fromLane="1" toLane="1"/>
+
+  <!-- 1_2 -->
+ <connection from="1_1to1_2" to="1_2to0_2" fromLane="0" toLane="0"/>
+ <connection from="1_1to1_2" to="1_2to1_3" fromLane="0" toLane="0"/>
+ <connection from="1_1to1_2" to="1_2to2_2" fromLane="1" toLane="1"/>
+ <connection from="0_2to1_2" to="1_2to1_3" fromLane="0" toLane="0"/>
+ <connection from="0_2to1_2" to="1_2to2_2" fromLane="0" toLane="0"/>
+ <connection from="0_2to1_2" to="1_2to1_1" fromLane="1" toLane="1"/>
+ <connection from="1_3to1_2" to="1_2to2_2" fromLane="0" toLane="0"/>
+ <connection from="1_3to1_2" to="1_2to1_1" fromLane="0" toLane="0"/>
+ <connection from="1_3to1_2" to="1_2to0_2" fromLane="1" toLane="1"/>
+ <connection from="2_2to1_2" to="1_2to1_1" fromLane="0" toLane="0"/>
+ <connection from="2_2to1_2" to="1_2to0_2" fromLane="0" toLane="0"/>
+ <connection from="2_2to1_2" to="1_2to1_3" fromLane="1" toLane="1"/>
+
+   <!-- 2_1 -->
+ <connection from="2_0to2_1" to="2_1to1_1" fromLane="0" toLane="0"/>
+ <connection from="2_0to2_1" to="2_1to2_2" fromLane="0" toLane="0"/>
+ <connection from="2_0to2_1" to="2_1to3_1" fromLane="1" toLane="1"/>
+ <connection from="1_1to2_1" to="2_1to2_2" fromLane="0" toLane="0"/>
+ <connection from="1_1to2_1" to="2_1to3_1" fromLane="0" toLane="0"/>
+ <connection from="1_1to2_1" to="2_1to2_0" fromLane="1" toLane="1"/>
+ <connection from="2_2to2_1" to="2_1to3_1" fromLane="0" toLane="0"/>
+ <connection from="2_2to2_1" to="2_1to2_0" fromLane="0" toLane="0"/>
+ <connection from="2_2to2_1" to="2_1to1_1" fromLane="1" toLane="1"/>
+ <connection from="3_1to2_1" to="2_1to2_0" fromLane="0" toLane="0"/>
+ <connection from="3_1to2_1" to="2_1to1_1" fromLane="0" toLane="0"/>
+ <connection from="3_1to2_1" to="2_1to2_2" fromLane="1" toLane="1"/>
+
+   <!-- 2_2 -->
+ <connection from="2_1to2_2" to="2_2to1_2" fromLane="0" toLane="0"/>
+ <connection from="2_1to2_2" to="2_2to2_3" fromLane="0" toLane="0"/>
+ <connection from="2_1to2_2" to="2_2to3_2" fromLane="1" toLane="1"/>
+ <connection from="1_2to2_2" to="2_2to2_3" fromLane="0" toLane="0"/>
+ <connection from="1_2to2_2" to="2_2to3_2" fromLane="0" toLane="0"/>
+ <connection from="1_2to2_2" to="2_2to2_1" fromLane="1" toLane="1"/>
+ <connection from="2_3to2_2" to="2_2to3_2" fromLane="0" toLane="0"/>
+ <connection from="2_3to2_2" to="2_2to2_1" fromLane="0" toLane="0"/>
+ <connection from="2_3to2_2" to="2_2to1_2" fromLane="1" toLane="1"/>
+ <connection from="3_2to2_2" to="2_2to2_1" fromLane="0" toLane="0"/>
+ <connection from="3_2to2_2" to="2_2to1_2" fromLane="0" toLane="0"/>
+ <connection from="3_2to2_2" to="2_2to2_3" fromLane="1" toLane="1"/>
+
+</connections>
