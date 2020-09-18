@@ -1,0 +1,6 @@
+<routes>
+    <vType id="passenger" vClass="passenger"/>
+    <vType id="truck" vClass="truck"/>
+    <vType id="bus" vClass="bus"/>
+    <vType id="motorcycle" vClass="motorcycle"/>
+</routes>
