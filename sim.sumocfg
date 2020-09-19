@@ -1,7 +1,7 @@
 <configuration>
     <input>
         <net-file value="sim.net.xml"/>
-        <route-files value="sim_flow2.rou.xml"/>
+        <route-files value="sim_random2.rou.xml"/>
     </input>
     <time>
         <begin value="0"/>
